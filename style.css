@@ -17,9 +17,13 @@ header{
 nav{
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -5%;
 }
 nav > a{
     font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 75px;
 }
 a{
     color: rgb(179, 179, 179);
