@@ -6,8 +6,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-areas: 
-        "header head head"
-        "header main main"
+        "header head"
+        "header main"
+        "footer footer"
     ;
 }
 header{
@@ -41,7 +42,6 @@ div.inscrever{
     background-color: rgb(16, 16, 16);
     grid-area: head;
     padding: 25px;
-    width: 1165px;
     text-align: right;
 }
 div.inscrever > a {
@@ -80,13 +80,23 @@ div.centro > a{
 }
 div.spotify-play{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 div.spotify-destaque{
     background-color: rgb(30, 30, 30);
     height: 300px;
     margin-top: 20px;
     margin-left: 10px;
+    color: white;
+}
+div.spotify-destaque > p.titulo_img{
+    text-align: center;
+    font-weight: 600;
+}
+div.spotify-destaque > p{
+    text-align: center;
+    margin-top: 6px;
+    font-weight: lighter;
 }
 div.spotify-destaque > img{
     height: 170px;
@@ -97,5 +107,9 @@ div.spotify-destaque:hover{
     background-color: rgb(70, 70, 70);
     cursor: pointer;
     border-radius: 10px;
+}
+footer{
+    background-image: linear-gradient(to right, #AD2B99, #519AF4);
+    grid-area: footer;
 }
 
