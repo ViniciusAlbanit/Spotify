@@ -58,13 +58,13 @@ a#entrar{
     padding-right: 30px;
     border-radius: 30px;
     font-weight: 600;
+    display: inline-block;
+    width: 4%;
 }
 a#entrar:hover{
-    transform: translate(-10%, -10%);
-    padding-left: 33px;
-    padding-right: 33px;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    transform: translate(-2%, -2%);
+    transition-duration: 0.1s;
+   
 }
 div.centro{
     background-image: linear-gradient(to bottom, rgb(30, 30, 30), rgb(18, 18, 18));
